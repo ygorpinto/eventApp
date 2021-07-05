@@ -154,6 +154,11 @@ development:
     # further information. Most applications should not use this option.
     # (default: false)
     # use_utc: false
+production:
+  clients:
+    default:
+      uri: mongodb+srv://teste:teste43@cluster0.dubd4.mongodb.net/eventlist?retryWrites=true&w=majority
+      options:
 test:
   clients:
     default:
